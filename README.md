@@ -1,11 +1,27 @@
 # School Management API
 
-A RESTful backend API built with Node.js, Express.js, and MySQL for managing school data. This project allows users to:
+A RESTful backend API built with Node.js, Express.js, and MySQL for managing school data.
+
+This project allows users to:
 
 * Add new schools
 * Store school location details
 * Retrieve schools sorted by proximity to a user’s location
 * Calculate geographical distance using the Haversine Formula
+
+---
+
+##  Live Deployment
+
+**Render Live URL:**
+https://school-management-api-z4qa.onrender.com
+
+---
+
+##  Postman Collection
+
+**Shared Postman Workspace:**
+https://martian-shuttle-450060.postman.co/workspace/Team-Workspace~c4fdb5f4-59e1-4b39-8dde-f2a6e0c5907a/collection/43064851-1f6d6432-1995-4746-a650-c2c206a223b4?action=share&source=copy-link&creator=43064851
 
 ---
 
@@ -15,6 +31,7 @@ A RESTful backend API built with Node.js, Express.js, and MySQL for managing sch
 * Express.js
 * MySQL
 * Railway (Database Hosting)
+* Render (API Hosting)
 * Postman (API Testing)
 
 ---
@@ -36,8 +53,8 @@ Make sure you have installed:
 ### 1. Clone Repository
 
 ```bash
-https://github.com/PeyalaAnandanaidu/School-Management-api.git
-cd school-management-api
+git clone https://github.com/PeyalaAnandanaidu/School-Management-api.git
+cd School-Management-api
 ```
 
 ### 2. Install Dependencies
@@ -86,13 +103,13 @@ The application uses a `schools` table.
 
 ### Table Structure
 
-| Column     | Type         | Description          |
-| ---------- | ------------ | -------------------- |
-| id         | INT          | Primary Key          |
-| name       | VARCHAR(255) | School name          |
-| address    | VARCHAR(500) | School address       |
-| latitude   | FLOAT        | School latitude      |
-| longitude  | FLOAT        | School longitude     |
+| Column    | Type         | Description      |
+| --------- | ------------ | ---------------- |
+| id        | INT          | Primary Key      |
+| name      | VARCHAR(255) | School name      |
+| address   | VARCHAR(500) | School address   |
+| latitude  | FLOAT        | School latitude  |
+| longitude | FLOAT        | School longitude |
 
 ---
 
@@ -114,7 +131,7 @@ The application uses a `schools` table.
 ### Endpoint
 
 ```http
-POST /api/v1/addSchool
+POST https://school-management-api-z4qa.onrender.com/api/v1/addSchool
 ```
 
 ### Request Body
@@ -154,7 +171,7 @@ POST /api/v1/addSchool
 ### Endpoint
 
 ```http
-GET /api/v1/listSchools?latitude=16.5062&longitude=80.6480
+GET https://school-management-api-z4qa.onrender.com/api/v1/listSchools?latitude=16.5062&longitude=80.6480
 ```
 
 ### Success Response
@@ -222,22 +239,6 @@ R = 6371 km
 
 ---
 
-##  Deployment
-
-This API can be deployed using:
-
-* Railway
-* Render
-
-
-### Deployment Notes
-
-* Set environment variables on hosting platform
-* Connect hosted MySQL database
-* Deploy GitHub repository
-
----
-
 ##  Testing
 
 Use Postman to test APIs.
@@ -251,23 +252,26 @@ Use Postman to test APIs.
 
 ---
 
-## Deliverables
+##  Deliverables
 
 ### Deliverable 1
 
-GitHub source code repository
+[GitHub source code repository]
+(https://github.com/PeyalaAnandanaidu/School-Management-api.git)
 
 ### Deliverable 2
 
 Live deployed API endpoints
+https://school-management-api-z4qa.onrender.com
 
 ### Deliverable 3
 
 Postman collection shared link
+https://martian-shuttle-450060.postman.co/workspace/Team-Workspace~c4fdb5f4-59e1-4b39-8dde-f2a6e0c5907a/collection/43064851-1f6d6432-1995-4746-a650-c2c206a223b4?action=share&source=copy-link&creator=43064851
 
 ---
 
-## Author
+##  Author
 
 **Peyala Ananda Naidu**
 
