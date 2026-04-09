@@ -31,7 +31,7 @@ Make sure you have installed:
 
 ---
 
-## ⚙️ Installation Steps
+##  Installation Steps
 
 ### 1. Clone Repository
 
@@ -80,7 +80,7 @@ npm start
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 The application uses a `schools` table.
 
@@ -96,7 +96,7 @@ The application uses a `schools` table.
 
 ---
 
-## 📌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint              | Description                      |
 | ------ | --------------------- | -------------------------------- |
@@ -109,7 +109,7 @@ The application uses a `schools` table.
 
 ---
 
-## 📥 Add School API
+##  Add School API
 
 ### Endpoint
 
@@ -149,7 +149,7 @@ POST /api/v1/addSchool
 
 ---
 
-## 📋 List Schools API
+##  List Schools API
 
 ### Endpoint
 
@@ -182,7 +182,7 @@ GET /api/v1/listSchools?latitude=16.5062&longitude=80.6480
 
 ---
 
-## 🧮 Distance Calculation Logic
+##  Distance Calculation Logic
 
 This project uses the **Haversine Formula** to calculate accurate geographical distance between:
 
@@ -209,7 +209,7 @@ R = 6371 km
 
 ---
 
-## 🛡️ Features Implemented
+##  Features Implemented
 
 * Input validation
 * Duplicate school prevention
@@ -222,7 +222,7 @@ R = 6371 km
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 This API can be deployed using:
 
@@ -238,7 +238,7 @@ This API can be deployed using:
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Use Postman to test APIs.
 
@@ -251,7 +251,7 @@ Use Postman to test APIs.
 
 ---
 
-## 📦 Deliverables
+## Deliverables
 
 ### Deliverable 1
 
@@ -267,7 +267,7 @@ Postman collection shared link
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Peyala Ananda Naidu**
 
